@@ -11,9 +11,9 @@ import pandas as pd
 # output:   number of iterations to get to 6174
 #
 def process_digits(number):
-    my_list = []
     # make a list
     #
+    my_list = []
     for digit in str(number):
         my_list.append(digit)
 
