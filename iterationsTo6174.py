@@ -8,7 +8,8 @@ import pandas as pd
 
 # function: process_digits
 # input:    4-digit positive integer
-# output:   number of iterations to get to 6174
+# output:   rearrange inputted digits such that they are ordered
+#           from highest digit to lowest digit (left to right)
 #
 def process_digits(number):
     # make a list
@@ -50,6 +51,10 @@ def process_digits(number):
     return int(reform)
 
 
+# function: reverse_order
+# input:    4-digit positive integer
+# output:   reverses digits of inputted 4-digit value
+#
 def reverse_order(number):
     my_list = []
     for digit in str(number):
@@ -64,6 +69,10 @@ def reverse_order(number):
     return int(reform)
 
 
+# function: process
+# input:    4-digit positive integer and iteration value
+# output:   number of iterations to get to 6174
+#
 def process(number, itr):
     itr = itr + 1
     t = process_digits(number)
