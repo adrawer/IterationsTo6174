@@ -5,8 +5,8 @@ Let's take a random 4-digit positive integer as an example:
 For the value 1328 we can sort the digits from most significant to least significant to get a value of 8321.
 
 Now we take the reversed form of 8321 to get 1238.  Let's subtract those two numbers to get a new value.
-
-    $8321
+$$ a+b $$
+    $8321 
  -  1238
  -------
     7083$
