@@ -6,10 +6,10 @@ For the value 1328 we can sort the digits from most significant to least signifi
 
 Now we take the reversed form of 8321 to get 1238.  Let's subtract those two numbers to get a new value.
 
-    8321
+    $8321
  -  1238
  -------
-    7083
+    7083$
 
 With 7083 we can perform the same iteration as before.  We can re-write 7083 as 8730 and the reversed form is 0378
 
