@@ -12,7 +12,7 @@ With 7083 we can perform the same iteration as before.  We can re-write 7083 as 
 
 $8730 - 0378 = 8352$
 
-We get a new number 8352 and so let's perform the same iteration where we rearrange the value from most significant to least significant digit and subtract the reversed form of that.
+We get a new number 8352 and so let's perform the same iteration where we rearrange the value from most significant to least significant digit and subtract the reversed form of that value.
 
 $8532 - 2358 = 6174$
 
